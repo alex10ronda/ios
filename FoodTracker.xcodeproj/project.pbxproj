@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1B64E51C514F8A009A1FF3 /* DBMeals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B64E31C514F8A009A1FF3 /* DBMeals.xcdatamodeld */; };
+		4E1B65181C5159CF009A1FF3 /* MealEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B65171C5159CF009A1FF3 /* MealEntity.swift */; };
 		4EB9E5E91C50CE0D0056C8C3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9E5E81C50CE0D0056C8C3 /* Meal.swift */; };
 		4EB9E5EA1C50CE0D0056C8C3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9E5E81C50CE0D0056C8C3 /* Meal.swift */; };
 		4EB9E6441C50E04E0056C8C3 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9E6431C50E04E0056C8C3 /* MealTableViewCell.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E1B64E41C514F8A009A1FF3 /* DBMeals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBMeals.xcdatamodel; sourceTree = "<group>"; };
+		4E1B65171C5159CF009A1FF3 /* MealEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealEntity.swift; sourceTree = "<group>"; };
 		4EB9E5E81C50CE0D0056C8C3 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		4EB9E6431C50E04E0056C8C3 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		4EB9E6491C50EE300056C8C3 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewController.swift; path = ../MealTableViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 			children = (
 				4EB9E6491C50EE300056C8C3 /* MealTableViewController.swift */,
 				4EC0CACE1C4FDFD300B8F202 /* AppDelegate.swift */,
+				4E1B64E31C514F8A009A1FF3 /* DBMeals.xcdatamodeld */,
 				4EC0CAD01C4FDFD300B8F202 /* ViewController.swift */,
 				4EB9E5E81C50CE0D0056C8C3 /* Meal.swift */,
 				4EC0CAD21C4FDFD300B8F202 /* Main.storyboard */,
@@ -96,6 +101,7 @@
 				4EC0CAD51C4FDFD300B8F202 /* Assets.xcassets */,
 				4EC0CAD71C4FDFD300B8F202 /* LaunchScreen.storyboard */,
 				4EC0CADA1C4FDFD300B8F202 /* Info.plist */,
+				4E1B65171C5159CF009A1FF3 /* MealEntity.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -212,10 +218,12 @@
 			files = (
 				4EB9E5E91C50CE0D0056C8C3 /* Meal.swift in Sources */,
 				4EC0CAD11C4FDFD300B8F202 /* ViewController.swift in Sources */,
+				4E1B64E51C514F8A009A1FF3 /* DBMeals.xcdatamodeld in Sources */,
 				4EC0CAEF1C500C3200B8F202 /* RatingControl.swift in Sources */,
 				4EC0CACF1C4FDFD300B8F202 /* AppDelegate.swift in Sources */,
 				4EB9E64A1C50EE300056C8C3 /* MealTableViewController.swift in Sources */,
 				4EB9E6441C50E04E0056C8C3 /* MealTableViewCell.swift in Sources */,
+				4E1B65181C5159CF009A1FF3 /* MealEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +426,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E1B64E31C514F8A009A1FF3 /* DBMeals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E1B64E41C514F8A009A1FF3 /* DBMeals.xcdatamodel */,
+			);
+			currentVersion = 4E1B64E41C514F8A009A1FF3 /* DBMeals.xcdatamodel */;
+			path = DBMeals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4EC0CAC31C4FDFD300B8F202 /* Project object */;
 }

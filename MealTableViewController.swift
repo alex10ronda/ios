@@ -92,6 +92,7 @@ class MealTableViewController: UITableViewController {
             // Delete the row from the data source
             meals.removeAtIndex(indexPath.row)
             saveMeals()
+            
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -150,6 +151,7 @@ class MealTableViewController: UITableViewController {
             
             // Save the meals.
             saveMeals()
+            
            
         }
     }
